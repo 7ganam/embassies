@@ -36,7 +36,7 @@ def main():
         print("To use the code type: python embassies.py <country>")
         sys.exit(1)
 
-    api_key = 'AIzaSyBobPrpAfV2cyTVn2HkmTrG4SMLx-jdy-U'
+    api_key = 'ADD_YOUR_API_KEY_HERE'
     all_country_names = [country.name for country in pycountry.countries]
     input_country = sys.argv[1]
     output_filename = f"{input_country}_embassies_worldwide_filtered.csv"
